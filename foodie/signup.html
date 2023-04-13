@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/3570/3570168.png">
+    <link rel="stylesheet" href="food.css">
+</head>
+<body class="login">
+    <img  id="food" src="https://cdn-icons-png.flaticon.com/512/3570/3570168.png" ><b id="title"> Foodie </b>
+    <form id="signup" name="form1" onsubmit="return page()" action="food.html" >
+        <label for="firstname" id="label">First Name :</label>
+        <input name="firstname" type="text" id="firstname" required ><br>
+        <label for="lastname" id="label">Last Name : </label>
+        <input type="text" name="lastname" id="lastname" required><br>
+        <label for="mail" id="label">Email id :  </label>
+        <input type="email" name="mail" id="mail" required>
+        <br>
+        <label for="num1" id="label">Phone no : </label>
+        <input name="num" type="number" id="num1" required>
+        <br>
+        <label for="password"id="label">password :  </label>
+        <input type="password" name="password1" id="password" required>
+        <br>
+        <label for="password"id="label">confirm :  </label>
+        <input type="password" name="password2" id="confirm" required>
+        <br>
+        <label for="dob" id="label">Date of birth :</label>
+        <input name="dob" type="date" id="dob" required>
+        <br>
+        <input id="check" type="checkbox" required><a id="terms" href=""> Accept terms and condition</a>
+        <br>
+        <button type="submit"  id="sign"><b>signup</b></button>
+        <h2>OR</h2>
+       <a id="new" href="log in.html">Already have account</a>
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,338 @@
+
+#head{
+    display: grid;
+    grid-template: 30% 60% /80% 10% 10%;
+    height: 400px;
+    width: 100%;
+    border: 2px solid black;
+    background-image:url(https://wallpaperaccess.com/full/825322.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+}
+#name{
+    font-size: 60px;
+    font-family:MS serif;
+    margin-left: 40px;
+    letter-spacing: 7px;
+    animation-name: name;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    
+}
+@keyframes name{
+    0%{color:yellow; text-shadow: 10px 10px 8px yellow;}
+    25%{color: blue; text-shadow: 10px 10px 8px blue;}
+    50%{color:red; text-shadow: 10px 10px 8px red;}
+    75%{color: green;text-shadow: 10px 10px 8px green;}
+    100%{color:yellow;text-shadow: 10px 10px 8px yellow;}
+
+}
+#up{
+    text-decoration:none;
+    color:blue;
+    font-size:25px;
+}
+.up{
+    margin-top:20px;
+}
+#quote{
+    font-size:50px;
+    color:red; 
+    margin-left: 200px;
+}
+#navigation{
+    display: grid;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(31, 27, 27, 0.349);
+    grid-auto-flow: column;
+}
+#page{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 5px;
+    margin-left: 10px;
+
+}
+#items{
+    display: grid;
+    grid-template: 100px 50px / 20% 20% 20%;
+    gap: 10px;
+    text-align: center;
+}
+.items{
+    height: 100px;
+    width:  100px;
+}
+#text{
+    color: rgb(116, 112, 112);
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.biryani {
+    display: grid;
+    grid-gap: 40px 20px;
+    height: 800px;
+    grid-template:330px 330px /32% 32% 32% ;
+    
+}
+
+#type{
+    height: 300px;
+    width: 400px;
+    border: inset 10px;
+    box-shadow:10px 10px 7px black;
+}
+#font{
+    margin-left: 30%;
+    text-decoration: none;
+    font-size:25px ;
+    color: black;
+}
+#font:hover{
+    font-size:30px ;
+}
+.cakes{
+    display: grid;
+    height: 800px;
+    grid-gap: 40px 20px;
+    grid-template: 330px 330px  /32% 32% 32% ;
+}
+#cake{
+    height: 300px;
+    width: 400px;
+    border: inset 10px;
+    box-shadow:10px 10px 7px black;
+}
+.burgers{
+    display: grid;
+    height: 800px;
+    grid-gap: 40px 20px;
+    grid-template: 330px 330px  / 32% 32% 32%;
+
+}
+#burger{
+    height: 300px;
+    width: 400px;
+    border: inset 10px;
+    box-shadow:10px 10px 7px black;
+}
+
+#body{
+    height: 850px;
+    width: 550px;
+    border: 2px solid rgb(99, 95, 95);
+    margin-left: 400px;
+    margin-top: 10px;
+    background-image: url(https://xtentertainment.com/wp-content/uploads/2015/03/Contact-us-Background.jpg);
+}
+#img{
+    width: 550px;
+    height:200px ;
+}
+#one{
+    display: grid;
+    height: 250px;
+    grid-template:120px 120px/50% 50% ;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size:15px ;
+    color: white;
+    margin-left: 20px;
+}
+#web{
+    text-decoration: none;
+    color: white; 
+}
+
+#num{
+    font-size:15px ;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#icon{
+    height: 40px;
+    width: 40px;
+}
+.icon{
+    text-align: center;
+    margin-top: 50px;
+}
+#app{
+    height: 50px;
+    width: 150px;
+}
+.app{
+    text-align: center;
+}
+#history{
+    font-size: 20px;
+}
+.grid{
+    display: grid;
+    grid-template:400px/1fr 1fr ;
+}
+#office{
+    height: 300px;
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+#form{
+    height: 200px;
+    width: 500px;
+    border: 2px solid rgb(99, 95, 95);
+    margin-left: 400px;
+    margin-top: 100px;
+    text-align: center;
+    background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-g20-summit-simple-business-background-picture-image_1100812.jpg);
+}
+#input{
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+}
+li{
+font-size:20px ;
+}
+.login{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://t4.ftcdn.net/jpg/03/57/34/39/360_F_357343965_u58BFcRrziBVMqgt6liwPHJKcIjHsPnc.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+}
+#login{
+    height: 350px;
+    width: 500px;
+    border: 2px solid rgb(99, 95, 95);
+    margin-left: 400px;
+    margin-top: 10px;
+    border: 5px outset;
+    text-align: center;
+    background-image: url(https://w0.peakpx.com/wallpaper/112/776/HD-wallpaper-fon-38626-abstract-android-design-marshmallow-material-thumbnail.jpg);
+}
+#food{
+    height: 50px;
+    width: 50px;
+    margin-left: 500px;
+    background-color: white;
+    margin-top: 20px;
+}
+#title{
+    font-family:segoe script;
+     font-size: 50px;
+     color:yellow;
+     text-shadow:8px 8px 5px red ;
+}
+#placeholder{
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius:10px; 
+    font-size:18px;   
+}
+button{
+    background-color: #1877f2;
+}
+#new{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(228, 6, 6);
+}
+
+#signup{
+    height: 90vh;
+    width: 450px;
+    border: 1px solid rgb(99, 95, 95);
+    margin-left: 450px;
+    margin-top: 10px;
+    border: 5px outset;
+    text-align: center;
+    background-image: url(https://w0.peakpx.com/wallpaper/112/776/HD-wallpaper-fon-38626-abstract-android-design-marshmallow-material-thumbnail.jpg);
+}
+#label{
+    margin-left: 30px;
+    font-size: 20px
+}
+#firstname{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius:10px;
+} 
+#lastname{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius:10px;
+} 
+#num1{
+    margin-left: 38px;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius:10px;
+}
+#dob{
+    margin-left: 13px;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius:10px;
+} 
+#mail{
+    margin-left: 47px;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius:10px;
+}
+#password{
+    margin-left: 38px;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius:10px;
+}
+#confirm{
+    margin-left: 48px;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius:10px;
+}
+#terms{
+    text-decoration: none;
+}
+#check{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#sign{
+    height: 30px;
+    width: 100px;
+    margin-top: 30px;
+}
+.home{
+    display: grid;
+    grid-template: 400px / 1fr 1fr 1fr;
+    margin-top: 50px;
+}
+#front{
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+}
+#home2{
+    display: grid;
+    grid-template: 400px /1fr 1fr;
+}
+
+
